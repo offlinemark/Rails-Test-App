@@ -1,0 +1,10 @@
+<h1><%= @user.name %></h1>
+<p>
+Is <%= @user.age %> years old.
+</p>
+
+<p id="notice"><%= notice %></p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
